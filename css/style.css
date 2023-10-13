@@ -1,0 +1,82 @@
+:root {
+    --cor1: #ECD7D0;
+    --cor2: #890025;
+    --cor3: #D79C80;
+    --cor4: #528780;
+    --fonte: 'PT Serif', serif;
+    --fonteTitulo: 'Tangerine', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte);
+}
+
+.head {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.head h1{
+    font-family: var(--fonteTitulo);
+    color: var(--cor2);
+    font-size: 50px;
+}
+
+.localization{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background: var(--cor2);
+}
+
+.localization .texto h2, h3{
+    color: var(--cor1);
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.map iframe {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.reference{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: var(--cor3);
+}
+
+.reference h2{
+    color: var(--cor2);
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.reference .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reference .images img{
+    width: 225px;
+    height: 321px;
+    margin-bottom: 10px;
+}
+
+.reference .images video{
+    width: 300px;
+    height: 400px;
+}
+
